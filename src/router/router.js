@@ -4,6 +4,7 @@ import login from '@/views/login.vue'
 import home from '@/views/home.vue'
 import welcome from '@/views/welcome.vue'
 import user from '@/views/user.vue'
+import rights from '@/views/rights/rights.vue'
 Vue.use(VueRouter)
 // 创建路由对象
 export default new VueRouter({
@@ -33,6 +34,11 @@ export default new VueRouter({
                    name:'user',
                    path:'user',
                    component:user,
+               },
+               {
+                   name:'rights',
+                   path:'rights',
+                   component:rights
                }
            ] 
         }
